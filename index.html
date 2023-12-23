@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and SignUp From</title>
+</head>
+<body>
+    <div class="container">
+     <form class="form signup">
+        <h2>Sign Up</h2>
+           <div class="input-container">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" required/>
+                <i class="fa-regular fa-user"></i>
+           </div>
+           <div class="input-container">
+                <label for="signup-email">Email Address</label>
+                <input type="email" id="signup-email" required/>
+                <i class="fa-regular fa-envelope"></i>
+           </div>
+           <div class="input-container">
+                <label for="signup-password">Create Password</label>
+                <input type="password" id="signup-password" required/>
+                <i class="fa-solid fa-lock"></i>
+           </div>
+           <div class="input-container">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" required/>
+                <i class="fa-solid fa-lock"></i> 
+           </div>
+           <div class="input-container">
+                <input type="submit" value="Create Account">     
+           </div>
+           <p>Already a member? <a href="#" class="login">Log in</a></p>          
+     </form>
+     <from class="form signin">
+        <h2>Sign In</h2>
+        <div class="input-container">
+             <label for="signin-username">Username</label>
+             <input type="text" id="signin-username" required>
+             <i class="fa-regular fa-user"></i>   
+        </div>
+        <div class="input-container">
+             <label for="signin-password">Password</label>
+             <input type="password" id="signin-password" required>
+             <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="input-container">
+             <input type="submit" value="Login">   
+        </div>
+         <p>Not Registered? <a href="#" class="create">Create an account</a></p>
+     </from>
+    </div>
+</body>
+</html>
