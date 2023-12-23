@@ -6,7 +6,7 @@
 }
 body{
     align-items: center;
-    background: #0ce6cd;
+    background: #223243;
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -14,7 +14,7 @@ body{
 .container {
     padding: 40px;
     border-radius: 20px;
-    border: 8px solid #05f9dd;
+    border: 8px solid #223243;
 }
 .container .form{
     display: flex;
@@ -32,7 +32,7 @@ body{
 }
 
 .container .form h2{
-    color: #09bafadd;
+    color: #fff;
     font-weight: 500;
     letter-spacing: 0.1em;
 }
@@ -48,7 +48,7 @@ body{
     padding: 12px 10px 12px 48px;
     border: none;
     width: 100%;
-    background: #0e8476;
+    background: #223243;
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #fff;
     font-weight: 300;
@@ -72,7 +72,7 @@ body{
 .container .form .inputBox .inputBox input:focus-span{
     color: #00dfc4;
     border: 1px solid #00dfc4;
-    background: #0e8476;
+    background: #223243;
     transform: translateX(25px) translateY(-7px);
     font-size: 0.6em;
     padding: 0 8px;
@@ -94,7 +94,7 @@ body{
     border-right: 1px solid #00dfc4;
 }
 .container .form .inputBox input[type="submit"]{
-    background: #00dfc4;
+    background: #223243;
     color: #0e8476;
     padding: 10px 0;
     font-weight: 500;
